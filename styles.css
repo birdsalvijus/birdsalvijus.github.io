@@ -312,6 +312,22 @@ select option{
     color:black;
     padding:1px 10px
 }
+.logo0{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    background:#015339;
+    color:white;
+    padding:1px 10px
+}
+.logo1{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    background:#fff;
+    color:black;
+    padding:1px 10px
+}
 .logo-1{
     display:flex;
     align-items:center;
@@ -352,60 +368,60 @@ select option{
     color:black;
     padding:1px 10px
 }
-.logo1{
-    display:flex;
-    align-items:center;
-    text-decoration:none;
-    background:#00FF00;
-    color:black;
-    padding:1px 10px
-}
-.logo2{
-    display:flex;
-    align-items:center;
-    text-decoration:none;
-    background:#FFFF00;
-    color:black;
-    padding:1px 10px
-}
-.logo3{
-    display:flex;
-    align-items:center;
-    text-decoration:none;
-    background:#FFFFFF;
-    color:black;
-    padding:1px 10px
-}
 .logo:hover{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#fff;
-    color:black;
+    background:#0096FF;
+    color:white;
     padding:1px 10px
 }
 .logo1:hover{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#fff;
-    color:black;
+    background:#015339;
+    color:white;
     padding:1px 10px
 }
-.logo2:hover{
+.logo-1:hover{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#fff;
-    color:black;
+    background:#015339;
+    color:white;
     padding:1px 10px
 }
-.logo3:hover{
+.logo-2:hover{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#FFFF00;
-    color:black;
+    background:#015339;
+    color:white;
+    padding:1px 10px
+}
+.logo-3:hover{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    background:#015339;
+    color:white;
+    padding:1px 10px
+}
+.logo-4:hover{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    background:#015339;
+    color:white;
+    padding:1px 10px
+}
+.logo-5:hover{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    background:#015339;
+    color:white;
     padding:1px 10px
 }
 html{
@@ -798,6 +814,9 @@ sup{
 .post-content2{
     padding: 7px;
     columns: 2
+}
+.post-right a{
+    text-decoration:none
 }
 .post-right{
     padding: 7px;
@@ -1363,4 +1382,3 @@ pre[class*="language-"]{
 body .gist .blob-num,body .gist .blob-code-inner{
     border:none
 }
-/*# sourceMappingURL=styles.css.map */
