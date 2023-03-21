@@ -822,6 +822,17 @@ sup{
     padding: 7px;
     text-align: right;
 }
+.post-right-links a{
+    text-decoration:none
+}
+.post-right-links a:hover{
+    text-decoration:none;
+    background:#015339;
+}
+.post-right-links{
+    padding: 7px;
+    text-align: right;
+}
 .post-cover{
     border:20px solid #FFA86A;
     background:transparent;
@@ -966,6 +977,9 @@ h1:hover a,h2:hover a,h3:hover a,h4:hover a{
 }
 .footer a{
     color:inherit
+}
+#fcol{
+    color:rgba(255,255,255,0.0);
 }
 .footer .copyright{
     display:flex;
