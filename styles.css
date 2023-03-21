@@ -33,7 +33,7 @@ button,.button,a.button{
     border-radius:8;
     border:1px solid #FFA86A;
     background:#FFA86A;
-    color:#808080;
+    color:#555555;
     font:inherit;
     font-weight:bold;
     appearance:none;
@@ -54,7 +54,7 @@ button.outline :hover,.button.outline :hover,a.button.outline :hover{
 }
 button.link,.button.link,a.button.link{
     background:none;
-    font-size:1rem
+    font-size:0.9rem
 }
 button.small,.button.small,a.button.small{
     font-size:.8rem
@@ -110,10 +110,10 @@ input:active,textarea:active,select:active{
     box-shadow:none
 }
 select{
-    background:#808080
+    background:#555555
 }
 select option{
-    background:#808080
+    background:#555555
 }
 ::placeholder{
     color:rgba(255,168,106,0.5)
@@ -140,7 +140,7 @@ select option{
 .header__logo{
     display:flex;
     flex:1;
-    border-bottom:2px solid #0096FF;
+    border-bottom:2px solid #aacc99;
 }
 .header__logo:after{
     content:'';
@@ -228,7 +228,7 @@ select option{
     display:none;
     flex-direction:column;
     position:absolute;
-    background:#808080;
+    background:#555555;
     box-shadow:0 10px rgba(34,33,41,0.8),-10px 10px rgba(34,33,41,0.8),10px 10px rgba(34,33,41,0.8);
     color:white;
     border:2px solid;
@@ -308,7 +308,7 @@ select option{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#0096FF;
+    background:#aacc99;
     color:black;
     padding:1px 10px
 }
@@ -316,7 +316,7 @@ select option{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#015339;
+    background:#4c8699;
     color:white;
     padding:1px 10px
 }
@@ -332,7 +332,7 @@ select option{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#69aaff;
+    background:#ffffff;
     color:black;
     padding:1px 10px
 }
@@ -340,7 +340,7 @@ select option{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#97beff;
+    background:#ffffff;
     color:black;
     padding:1px 10px
 }
@@ -348,7 +348,7 @@ select option{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#bcd3ff;
+    background:#ffffff;
     color:black;
     padding:1px 10px
 }
@@ -356,7 +356,7 @@ select option{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#dfe9ff;
+    background:#ffffff;
     color:black;
     padding:1px 10px
 }
@@ -372,7 +372,7 @@ select option{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#0096FF;
+    background:#aacc99;
     color:white;
     padding:1px 10px
 }
@@ -380,7 +380,7 @@ select option{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#015339;
+    background:#4c8699;
     color:white;
     padding:1px 10px
 }
@@ -388,7 +388,7 @@ select option{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#015339;
+    background:#4c8699;
     color:white;
     padding:1px 10px
 }
@@ -396,7 +396,7 @@ select option{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#015339;
+    background:#4c8699;
     color:white;
     padding:1px 10px
 }
@@ -404,7 +404,7 @@ select option{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#015339;
+    background:#4c8699;
     color:white;
     padding:1px 10px
 }
@@ -412,7 +412,7 @@ select option{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#015339;
+    background:#4c8699;
     color:white;
     padding:1px 10px
 }
@@ -420,7 +420,7 @@ select option{
     display:flex;
     align-items:center;
     text-decoration:none;
-    background:#015339;
+    background:#4c8699;
     color:white;
     padding:1px 10px
 }
@@ -434,11 +434,11 @@ body{
     margin:0;
     padding:0;
     font-family:'olivetti';
-    font-size:1rem;
-    line-height:1.54;
+    font-size:0.9rem;
+    line-height:1.2;
     letter-spacing:-0.02em;
-    background-color:#808080;
-    background-image: url("videogramo.gif");
+    background-color:#777777 ;
+    background-image: url("bg.png");
     background-repeat: no-repeat;
     background-position: left top;
     color:#fff;
@@ -451,7 +451,7 @@ body{
 }
 @media (max-width: 684px){
     body{
-        font-size:1rem
+        font-size:0.9rem
     }
 }
 .headings--one-size h1,.headings--one-size h2,.headings--one-size h3,.headings--one-size h4,.headings--one-size h5,.headings--one-size h6{
@@ -508,7 +508,7 @@ figure figcaption{
     padding:5px 10px;
     margin-top:5px;
     background:#FFA86A;
-    color:#808080
+    color:#555555
 }
 figure figcaption.left{
     text-align:left
@@ -658,7 +658,7 @@ ol ol li:before{
 }
 mark{
     background:#FFA86A;
-    color:#808080
+    color:#555555
 }
 .container{
     display:flex;
@@ -722,11 +722,11 @@ sup{
 .posts{
     width:100%;
     font-family: 'ocr-b';
-    font-size:0.8rem;
+    font-size:0.7rem;
     border-top:1px solid rgba(255,255,255,0.5);
     border-left:1px solid rgba(255,255,255,0.5);
     border-bottom:1px solid rgba(255,255,255,0.5);
-    background-color:#808080;
+    background-color:#555555;
 }
 .filler{
     width:100%;
@@ -734,13 +734,18 @@ sup{
     border-top:1px solid rgba(255,255,255,0.5);
     border-left:1px solid rgba(255,255,255,0.5);
     border-bottom:1px solid rgba(255,255,255,0.5);
-    min-height: 50vh;
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
 }
 .grid {
   display: grid;
   grid-template-columns: auto auto 1fr;
+  grid-column-gap: 7px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: auto 1fr;
   grid-column-gap: 7px;
 }
 .box11 {
@@ -778,7 +783,7 @@ sup{
     border-top:1px solid rgba(255,255,255,0.5);
 }
 .post-meta{
-    font-size:1rem;
+    font-size:0.9rem;
     margin-bottom:10px;
     color:rgba(255,168,106,0.7)
 }
@@ -802,7 +807,7 @@ sup{
 .post-tags{
     display:block;
     margin-bottom:20px;
-    font-size:1rem;
+    font-size:0.9rem;
     opacity:.5
 }
 .post-tags a{
@@ -823,11 +828,12 @@ sup{
     text-align: right;
 }
 .post-right-links a{
-    text-decoration:none
+    text-decoration:none;
+    color:#eaeab9;
 }
 .post-right-links a:hover{
     text-decoration:none;
-    background:#015339;
+    background:#4c8699;
 }
 .post-right-links{
     padding: 7px;
@@ -895,7 +901,7 @@ h1:hover a,h2:hover a,h3:hover a,h4:hover a{
     text-align:center;
     margin:0 auto;
     padding:5px 10px;
-    background:#808080;
+    background:#555555;
     color:rgba(255,255,255,0.3);
     font-size:.8rem;
     text-transform:uppercase;
@@ -926,7 +932,7 @@ h1:hover a,h2:hover a,h3:hover a,h4:hover a{
     display:inline-flex;
     align-items:center;
     justify-content:center;
-    font-size:1rem;
+    font-size:0.9rem;
     padding:0;
     appearance:none
 }
@@ -959,7 +965,7 @@ h1:hover a,h2:hover a,h3:hover a,h4:hover a{
 .footer{
     padding:40px 0;
     flex-grow:0;
-    font-size:0.8rem;
+    font-size:0.7rem;
     opacity:.5;
 }
 .footer__inner{
@@ -981,12 +987,15 @@ h1:hover a,h2:hover a,h3:hover a,h4:hover a{
 #fcol{
     color:rgba(255,255,255,0.0);
 }
+#fcol-index{
+    color:rgba(255,255,255,0.5);
+}
 .footer .copyright{
     display:flex;
     flex-flow:row wrap;
     flex:1;
     align-items:center;
-    font-size:1rem;
+    font-size:0.9rem;
     justify-content:center
 }
 .footer .copyright--user{
