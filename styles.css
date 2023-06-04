@@ -769,6 +769,9 @@ sup{
 .box15 {
   grid-area: 5 / 1 / 5 / 1;
 }
+.box16 {
+  grid-area: 6 / 1 / 6 / 1;
+}
 .box21 {
   grid-area: 1 / 2 / 1 / 2;
 }
@@ -784,6 +787,9 @@ sup{
 .box25 {
   grid-area: 5 / 2 / 5 / 2;
 }
+.box26 {
+  grid-area: 6 / 2 / 6 / 2;
+}
 .box31 {
   grid-area: 1 / 3 / 1 / 3;
 }
@@ -798,6 +804,9 @@ sup{
 }
 .box35 {
   grid-area: 5 / 3 / 5 / 3;
+}
+.box36 {
+  grid-area: 6 / 3 / 6 / 3;
 }
 .post{
     width:100%;
