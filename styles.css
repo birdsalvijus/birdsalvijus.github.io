@@ -439,6 +439,7 @@ body{
     letter-spacing:-0.02em;
     background-color:#777777 ;
     background-image: url("bg.png");
+    image-rendering: pixelated;
     background-repeat: no-repeat;
     background-position: left top;
     color:#fff;
