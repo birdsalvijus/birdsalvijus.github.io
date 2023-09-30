@@ -144,7 +144,6 @@ select option{
 }
 .header__logo:after{
     content:'';
-    background:repeating-linear-gradient(90deg, #FFF, #FFF 4px, transparent 0, transparent 5px);
     display:block;
     width:100%;
     right:1px
