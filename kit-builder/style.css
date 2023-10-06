@@ -1,0 +1,224 @@
+@font-face{
+    font-display:swap;
+    font-family:'ocr-b';
+    font-style:normal;
+    font-weight:400;
+    src:url("ocr-b-pro.woff") format("woff")
+}
+@font-face{
+    font-display:swap;
+    font-family:'olivetti';
+    font-style:normal;
+    font-weight:400;
+    src:url("olivetti-m15-2y.woff") format("woff")
+}
+body{
+    margin:20px;
+    padding:0;
+    font-family:'ocr-b';
+    box-sizing: border-box;
+    font-size: 0.7rem;
+    line-height:2;
+    letter-spacing:-0.02em;
+    background-color:#bbb ;
+    background-image: url("mpc1k.png");
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+    background-position: left top;
+    color: #4e7a1a;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing:antialiased;
+    font-feature-settings:"liga", "tnum", "zero", "ss01", "locl";
+    font-variant-ligatures:contextual;
+    -webkit-overflow-scrolling:touch;
+    -webkit-text-size-adjust:100%
+    }
+
+    .progression {
+        display: flex;
+        flex-direction: column;
+        width: 608px;
+        margin:auto;
+        margin-bottom: 32px;
+    }
+    #errors {
+        width: auto;
+        background-color: #fff;
+        border:1px solid crimson;
+        padding:16px;
+        color:crimson;
+        display:none;
+
+    }
+
+    h3,h1 {
+        margin: 0;
+        margin-bottom: 8px;
+    }
+h1{
+    font-family: "olivetti";
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing:0px;
+    font-size: 2rem;
+    line-height: 80%;
+    color: #4e7a1a;
+}
+    .sub-title {
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 32px;
+        color: #3fad99;
+    }
+
+    .chords {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .chords li {
+        padding: 16px;
+        min-width: 76px;
+        max-width: 76px;
+        height: 76px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #ccc;
+        font-size: 10px;
+    }
+
+    .root {
+      background-color: #ccc;
+
+    }
+
+    header {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items:center;
+        margin-bottom:0px;
+    }
+    #controls {
+        display:flex;
+        flex-direction: column;
+       margin:16px;
+    }
+    #dropper {
+       min-width:600px;
+        max-width:100%;
+        height:170px;
+        border:1px dashed #000;
+        padding: 0px;
+        margin-bottom: 10px;
+        background-color:#fff;
+        color:#999;
+        font-weight: bold;
+        font-size:32px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+        align-content: center;
+        align-items:center;
+            }
+    #print {
+        width:100%;
+        text-align:center;
+        display:none;
+    }
+    #report {
+text-align:center;
+    }
+#grid { list-style-type: none;
+    margin: 0;
+     padding: 0; 
+    text-align:left;
+    margin:0;
+    display: flex;
+    max-width:600px;
+    margin:auto;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+ #grid li {
+     margin:0px;
+     overflow: hidden;
+     font-size:0.8rem;
+     border:1px solid #bbb;
+     border-bottom: 0;
+     cursor:move;
+     background-color:#bbb;
+ }
+ div#UI li:nth-child(4n) {
+    border-bottom:1px dashed #4e7a1a;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+   /* margin-bottom: 16px;*/
+   
+}
+div#UI li:active {
+background-color:#000;
+color:#fff;
+
+}
+div#UI li:active,div#UI li:last-child {
+      border:1px solid #bbb;
+   
+}
+
+
+
+#toolbar {
+display:flex;
+margin:0px 0px;
+}
+#KITNAME {
+    margin-right:16px;
+        color:#000;
+    flex:1;
+}
+#NEW {
+    margin-left:8px;
+        color:#999;
+}
+#toolbar input {
+    padding:6px;
+        color:#999;
+}
+
+
+    #print input {
+text-align:center;
+margin:auto;
+font-size:18px;
+padding:6px;
+
+    }
+
+    .hilite {
+
+    border:2px solid red !important;
+}
+ .note {
+     font-size: 0.7rem;
+     line-height: 0.8rem;
+     color:crimson;
+     margin-bottom:10px;
+     font-weight:300;
+ }
+
+
+ @media print {
+#controls,#myapps {
+display:none;
+
+}
+
+
+}
