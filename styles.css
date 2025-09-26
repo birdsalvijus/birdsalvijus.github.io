@@ -16,7 +16,7 @@
     font-weight:400;
     src:url("olivetti-m15-2y.woff") format("woff")
 }
-#mouseCanvas {
+.mouseCanvas{
     position: fixed;
     top: 0;
     left: 0; /* Full width */
